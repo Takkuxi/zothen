@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "Augusta";
+    src: url("../fonts/Augusta.ttf");
+    font-weight: bold;
+}
+
+body {
+    font-family: "Augusta";
+    background-image: url(../BG.png);
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.title {
+    padding : 3px;
+    background-color: #dddddd;
+}
+
+.title-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 5px;
+}
+
+.title li {
+    text-decoration: none;
+    -webkit-text-fill-color: brown;
+    font-size: 70px;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    display: inline-flex;
+}
+
+.title a {
+    font-size: 40px;
+    color: #00cddb;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    display: inline-flex;
+}
+
+.shadow {
+    filter: drop-shadow(0 0 0.75rem #000000);
+}
